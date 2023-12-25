@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    background: white;
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    width: 150px;
+    height: 150px;
+}
